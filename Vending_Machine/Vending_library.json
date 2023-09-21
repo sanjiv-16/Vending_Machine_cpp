@@ -1,0 +1,79 @@
+[
+    {
+        "101": {
+            "Name": "Coffee",
+            "Price": 25,
+            "Quantity": 0
+        }
+    },
+    {
+        "102": {
+            "Name": "Tea",
+            "Price": 35,
+            "Quantity": 10
+        }
+    },
+    {
+        "103": {
+            "Name": "Soda",
+            "Price": 45,
+            "Quantity": 6
+        }
+    },
+    {
+        "105": {
+            "Name": "Coke",
+            "Price": 40,
+            "Quantity": 5
+        }
+    },
+    {
+        "106": {
+            "Name": "Fizz",
+            "Price": 23,
+            "Quantity": 9
+        }
+    },
+    {
+        "107": {
+            "Name": "Bovonto",
+            "Price": 30,
+            "Quantity": 8
+        }
+    },
+    {
+        "108": {
+            "Name": "Sprite",
+            "Price": 20,
+            "Quantity": 19
+        }
+    },
+    {
+        "112": {
+            "Name": "Maaza",
+            "Price": 20,
+            "Quantity": 9
+        }
+    },
+    {
+        "113": {
+            "Name": "Mango juice",
+            "Price": 30,
+            "Quantity": 9
+        }
+    },
+    {
+        "114": {
+            "Name": "apple juice",
+            "Price": 20,
+            "Quantity": 9
+        }
+    },
+    {
+        "115": {
+            "Name": "Fizz",
+            "Price": 20,
+            "Quantity": 10
+        }
+    }
+]
