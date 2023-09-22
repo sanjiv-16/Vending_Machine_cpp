@@ -42,10 +42,7 @@ int main()
         case 4:
         {
             
-            std::cout << std::setw(100) << std::setfill('-') << "" << std::endl;
-            std::cout << std::setw(3) << std::left << std::setfill(' ') << "|";
-            std::cout << std::setw(48) << std::right << std::setfill(' ') << "THANK YOU" << std::setw(49) << std::right << "|" << std::endl;
-            std::cout << std::setw(100) << std::setfill('-') << "" << std::endl;
+            Money_handler::return_changes(*user);
             menu_flag = false;
             break;
         }
