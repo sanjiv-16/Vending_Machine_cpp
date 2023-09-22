@@ -108,7 +108,7 @@ public:
                     if (Cart_page::cart_page(user))
                     {
                         Money_handler::return_changes(user);
-                        user = User();
+                        user.set_to_default();
                         menu_flag = false;
                     }
                     break;
@@ -124,10 +124,9 @@ public:
                     if (Cart_page::user_cancellation(user))
                     {
                         Money_handler::return_changes(user);
-                        user = User();
+                        user.set_to_default();
                         menu_flag = false;
                     }
-                    //menu_flag = false;
                     break;
                 }
                 case 6:
