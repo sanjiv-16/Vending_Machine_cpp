@@ -38,8 +38,8 @@ public:
         rapidjson::Writer<rapidjson::OStreamWrapper> writer(Output_stream_wrapper);
         json_document.Accept(writer);
     }
-    template <typename T>
-    T find(std::string id)
+    template <typename product>
+    product find(std::string id)
     {
         rapidjson::Document jsonDocument = Get_input_document();
         if (!jsonDocument.Empty())
@@ -53,11 +53,11 @@ public:
                     int quantity = get_value["Quantity"].GetInt();
                     std::string name = get_value["Name"].GetString();
                     int price = get_value["Price"].GetInt();
-                    return T(id, name, price, quantity);
+                    return product(id, name, price, quantity);
                 }
             }
         }
-        return T();
+        return product();
     }
 
     bool contains(std::string id)
