@@ -12,8 +12,8 @@
 #include "Choice_validator.cpp"
 struct login_credentials
 {
-    std::string user_id;
-    std::string password;
+    private std::string user_id;
+    private std::string password;
 
     bool operator==(const login_credentials &rhs)
     {
